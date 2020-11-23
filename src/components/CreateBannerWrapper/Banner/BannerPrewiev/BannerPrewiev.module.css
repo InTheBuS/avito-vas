@@ -1,0 +1,28 @@
+.banner {
+    width: 141px;
+    height: 188px;
+    cursor: pointer;
+    border-radius: 8px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image {
+    max-height: 188px;
+    max-width: 141px;
+}
+
+.tittle {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 11px 0 14px;
+    font-weight: 700;
+    font-size: 18px;
+    color: #fff;
+    white-space: pre-line;
+    position: absolute;
+    bottom: 16px;
+    max-height: 63px;
+    overflow: hidden;
+}

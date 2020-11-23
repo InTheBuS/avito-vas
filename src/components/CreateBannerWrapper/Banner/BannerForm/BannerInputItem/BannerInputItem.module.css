@@ -1,0 +1,31 @@
+.name {
+    display: flex;
+    height: 40px;
+    align-items: flex-end;
+}
+.input {
+
+}
+@media (min-width: 900px) {
+ .name {
+     width: 440px;
+     justify-content: space-between;
+ }
+    .input {
+        margin: 0 25px 0 5px;
+    }
+    .name input {
+        width: 190px;
+    }
+}
+@media (max-width: 899px) {
+    .name {
+        width: 100%;
+        justify-content: space-between;
+        padding: 0 15px;
+    }
+    .name input{
+        width: 50%;
+        max-width: 200px;
+    }
+}

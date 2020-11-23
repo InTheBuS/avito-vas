@@ -1,0 +1,29 @@
+.formWrapper {
+    margin: 25px 0;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.formWrapper input {
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    font-size: 16px;
+}
+.formWrapper input:hover {
+    opacity: .6;
+}
+
+@media (min-width: 1400px) {
+    .formWrapper {
+        max-width: 900px;
+        justify-content: center;
+    }
+}
+@media (max-width: 1399px) {
+    .formWrapper {
+        max-width: 900px;
+        justify-content: flex-start;
+    }
+}
