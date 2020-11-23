@@ -1,7 +1,19 @@
 .bannerWrapper {
-    display: flex;
-    flex-direction: column;
+    justify-items: center;
     align-items: center;
-    justify-content: center;
-    margin-top: 25px;
+    width: 100%;
+    height: 100%;
+}
+@media (min-width: 900px) {
+    .bannerWrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 2fr 1fr;
+    }
+}
+@media (max-width: 899px) {
+    .bannerWrapper {
+        display: flex;
+        flex-direction: column;
+    }
 }

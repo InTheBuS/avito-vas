@@ -7,8 +7,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
 }
 .image {
+    position: absolute;
     max-height: 188px;
     max-width: 141px;
 }
@@ -25,4 +27,9 @@
     bottom: 16px;
     max-height: 63px;
     overflow: hidden;
+}
+@media (min-width: 900px) {
+    .banner {
+        grid-row: 1/3;
+    }
 }

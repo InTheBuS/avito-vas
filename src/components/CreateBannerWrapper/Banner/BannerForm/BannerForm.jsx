@@ -1,6 +1,6 @@
 import React from "react"
 import {InputItem} from "./BannerInputItem/BannerInputItem";
-import s from "./BannerForm.module.css"
+import className from "./BannerForm.module.css"
 
 export const BannerForm = ({fields, changeHandler}) => {
 
@@ -11,7 +11,7 @@ export const BannerForm = ({fields, changeHandler}) => {
     })
 
     return (
-        <div className={s.formWrapper}>
+        <div className={className.formWrapper}>
             {inputs}
         </div>
     )

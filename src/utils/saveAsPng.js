@@ -1,8 +1,8 @@
 import html12canvas from "html2canvas";
 import {saveAs} from "file-saver"
 
-export const savePNG = (ref) => {
-    html12canvas(ref.current, {allowTaint: true, useCORS: true, proxy: true})
+export const savePNG = (HTMLElement) => {
+    html12canvas(HTMLElement, {allowTaint: true, useCORS: true})
         .then((canvas) => {
             try {
                 canvas.toBlob(function (blob) {

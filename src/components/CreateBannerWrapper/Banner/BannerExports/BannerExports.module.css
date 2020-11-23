@@ -1,18 +1,40 @@
 .buttonsWrapper {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    width: 300px;
-    height: 40px;
-    padding: 5px;
+    width: 100%;
 }
 .buttonsWrapper button {
-    height: 40px;
-    border: 1px solid black;
-    border-radius: 8px;
-    background-color: lightblue;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(29, 161, 242);
+    color: white;
     transition: .5s opacity;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    height: 100%;
 }
 .buttonsWrapper button:hover {
     opacity: .6;
+}
+
+@media (min-width: 1400px) {
+    .buttonsWrapper {
+        height: 40px;
+    }
+    .buttonsWrapper button {
+        width: 180px;
+        border-radius: 16px;
+        font-size: 16px;
+    }
+}
+@media (max-width: 1399px) {
+    .buttonsWrapper {
+        height: 40px;
+    }
+    .buttonsWrapper button {
+        width: 120px;
+        border-radius: 14px;
+        font-size: 14px;
+    }
 }
