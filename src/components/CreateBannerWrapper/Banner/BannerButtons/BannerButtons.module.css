@@ -2,10 +2,12 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    align-self: flex-start;
     width: 100%;
 }
 .buttonsWrapper button {
     border: none;
+    outline: none;
     cursor: pointer;
     background-color: rgb(29, 161, 242);
     color: white;

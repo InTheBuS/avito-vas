@@ -1,0 +1,81 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing BannerForm component rendering when array has multiple objects 1`] = `
+<div
+  className="formWrapper"
+>
+  <div>
+    Что-то пошло не так
+  </div>
+</div>
+`;
+
+exports[`Testing BannerForm component rendering when array has one object 1`] = `
+<div
+  className="formWrapper"
+>
+  <label
+    className="name"
+  >
+     
+    test label:
+    <input
+      className="input"
+      name="body"
+      onChange={[Function]}
+      placeholder="test placeholder"
+      type="text"
+      value="This is the body text"
+    />
+  </label>
+  <label
+    className="name"
+  >
+     
+    test label:
+    <input
+      className="input"
+      name="color"
+      onChange={[Function]}
+      placeholder="test placeholder"
+      type="color"
+      value="#646464"
+    />
+  </label>
+  <label
+    className="name"
+  >
+     
+    test label:
+    <input
+      className="input"
+      name="image"
+      onChange={[Function]}
+      placeholder="test placeholder"
+      type="text"
+      value=""
+    />
+  </label>
+</div>
+`;
+
+exports[`Testing BannerForm component rendering when array of inputs empty 1`] = `
+<div
+  className="formWrapper"
+>
+  <label
+    className="name"
+  >
+     
+    test label:
+    <input
+      className="input"
+      name="body"
+      onChange={[Function]}
+      placeholder="test placeholder"
+      type="text"
+      value="This is the body text"
+    />
+  </label>
+</div>
+`;
