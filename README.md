@@ -28,4 +28,4 @@ file-saver - [www.npmjs.com/package/file-saver](https://www.npmjs.com/package/fi
 
 ### Скриншот проекта:
 
-![projectScreen](https://sun9-33.userapi.com/impf/U4j8banGmMmvnhbaNUtR6kQjrJGGA2fRGIrD1g/mUSlSbDvuUc.jpg?size=958x520&quality=96&proxy=1&sign=31875583a51b5994409b63569878c42e)
+![projectScreen](https://sun9-31.userapi.com/impf/q1IqCmLcwGp2RGDsG1pPwOfYn7Wzbg-M9zDAAA/wX-l-s8nM6I.jpg?size=960x520&quality=96&proxy=1&sign=e2ee909308823db64d5fbc4627fc618d)
