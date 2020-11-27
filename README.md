@@ -19,9 +19,11 @@
 ### Список библиотек: 
 
 i18next - [www.i18next.com/](https://www.i18next.com/)
+
 html2canvas - [www.npmjs.com/package/html2canvas](https://www.npmjs.com/package/html2canvas)
+
 file-saver - [www.npmjs.com/package/file-saver](https://www.npmjs.com/package/file-saver)
 
 ### Скриншот проекта:
 
-![projectScreen](https://sun9-73.userapi.com/impf/Rv7daB7_rsOHMDfv6jGnGIso7PyyZ5JXX4tXXw/0_U3ZS8od-o.jpg?size=749x519&quality=96&proxy=1&sign=9bdd8c76a1b702f8d2e70cc035091a8a)
+![projectScreen](https://sun9-33.userapi.com/impf/U4j8banGmMmvnhbaNUtR6kQjrJGGA2fRGIrD1g/mUSlSbDvuUc.jpg?size=958x520&quality=96&proxy=1&sign=31875583a51b5994409b63569878c42e)
