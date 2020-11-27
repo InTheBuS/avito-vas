@@ -7,7 +7,7 @@ export const savePNG = (HTMLElement) => {
             try {
                 canvas.toBlob(function (blob) {
                     saveAs(blob, "pretty image.png")
-                })
+                }, "image/png")
             } catch (err) {
                 throw new Error(err)
             }
