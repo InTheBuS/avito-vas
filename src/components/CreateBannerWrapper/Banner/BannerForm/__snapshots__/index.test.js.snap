@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing BannerForm component rendering when array has multiple objects 1`] = `
+<div
+  className="formWrapper"
+/>
+`;
+
+exports[`Testing BannerForm component rendering when array has one object 1`] = `
+<div
+  className="formWrapper"
+/>
+`;
+
+exports[`Testing BannerForm component rendering when array of inputs empty 1`] = `
+<div
+  className="formWrapper"
+/>
+`;

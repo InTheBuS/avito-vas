@@ -4,11 +4,19 @@
     width: 100%;
     height: 100%;
 }
+.bannerWrapper input {
+    font-family: 'Montserrat', sans-serif;
+}
+.bannerWrapper button {
+    font-family: 'Montserrat', sans-serif;
+}
 @media (min-width: 900px) {
     .bannerWrapper {
+        max-width: 1200px;
+        margin: 0 auto;
         display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 2fr 1fr;
+        grid-template-columns: 1fr 2fr;
+        grid-template-rows: 1fr 1fr;
     }
 }
 @media (max-width: 899px) {

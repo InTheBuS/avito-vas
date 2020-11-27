@@ -1,9 +1,10 @@
 .buttonsWrapper {
     display: flex;
-    justify-content: space-around;
     align-items: center;
     align-self: flex-start;
+    justify-content: center;
     width: 100%;
+    gap: 5px;
 }
 .buttonsWrapper button {
     border: none;
@@ -12,7 +13,7 @@
     background-color: rgb(29, 161, 242);
     color: white;
     transition: .5s opacity;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     height: 100%;
 }
@@ -23,6 +24,7 @@
 @media (min-width: 1400px) {
     .buttonsWrapper {
         height: 40px;
+        margin-top: 20px;
     }
     .buttonsWrapper button {
         width: 180px;
