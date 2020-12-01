@@ -1,10 +1,11 @@
 import React, {Suspense} from "react";
 import ReactDOM from "react-dom";
+import "./i18next";
 import "./index.css";
 import App from "./App";
-import {Loader} from "./components/Loader";
 import reportWebVitals from "./reportWebVitals";
-import "./i18next"
+import {Loader} from "./components/Loader";
+
 
 ReactDOM.render(
     <Suspense fallback={Loader()}>
